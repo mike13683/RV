@@ -20,4 +20,202 @@
 //googlefont
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
 
+section{
+  margin:150px 0;
+}
 
+h2{
+  @extend .font-heavy;
+}
+
+//HERO
+.hero{
+  position: relative;
+  height: 100%;
+  width:100%;
+  margin-top: -150px;
+
+  &--bg-image{
+    background: url("{{site.url}}/assets/img/hero.jpg") center center no-repeat;
+    background-size:cover;
+    height:500px;
+    transform-origin: right ;
+  }
+
+  .hero-wrapper{
+    position: relative;
+    height:100%;
+  }
+
+  &__content{
+    @include centerer;
+
+    h1{
+      @extend .font-heavy;
+      font-size:rem-calc(46px);
+      text-align: left;
+    }
+
+    p{
+      @extend .font-light;
+      text-align: left;
+      font-size:rem-calc(30px);
+    }
+  }
+
+  .half-bg-colour{
+    background-color: rgba(255,255,255, 0.8);
+  }
+}
+
+//trip of a lifetime
+.intro{
+  position: relative;
+  height:100%;
+
+  &--bg-colour{
+    background-color: #BDDBFA;
+  }
+
+  &__content{
+    @include centerer;
+
+    h2{
+      text-align: left;
+    }
+
+    p{
+      font-size:rem-calc(20px);
+    }
+  }
+}
+
+//Renters RV
+.rv-number{
+  background-color: $primary;
+  padding:45px 55px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+#renting-rv h3{
+    @extend .font-light;
+}
+
+//POSSIBILITIES ARE ENDLESS
+.info{
+  position: relative;
+  height: 100%;
+
+  &__content{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    padding: 5px;
+    width:90%;
+
+    p{
+      @extend .font-light;
+      font-size:rem-calc(30px);
+    }
+  }
+}
+
+//DESTINATIONS
+.destination{
+  position: relative;
+  height: 100%;
+
+  &__content{
+    position: absolute;
+    top:0;
+    right:0;
+    width:60%;
+    background-color: rgba(0,0,0,0.8);
+    text-align:right;
+    padding:10px;
+    color:#fff;
+  }
+}
+
+//DISCOVER
+.myNavsWrapper{
+  position: relative;
+  height:100%;
+
+  #myNavs{
+    @include centerer;
+  }
+}
+
+#discovery .item{
+  position: relative;
+  height: 100%;
+
+  &__content{
+    @include centerer;
+    color:#fff;
+    background-color: rgba(0,0,0,0.6);
+    padding:25px;
+  }
+
+  h3{
+    @extend .font-light;
+    font-size:rem-calc(30px);
+    line-height: 40px;
+  }
+}
+
+#myNavs button {
+  border-radius:100%;
+  padding:25px;
+  border:none;
+  background-color: $primary;
+  color:#fff;
+  margin-top:10px;outline: none;
+}
+
+//EXTRAS
+.price-bubble{
+  position: absolute;
+  top:0;
+  right:0;
+  padding:10px;
+
+  &__content{
+    background-color: $primary;
+    padding:15px;
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
+#extras h3{
+  @extend .font-light;
+  font-size:rem-calc(36px);
+}
+
+//testimonal
+#testimonal{
+
+  .card{
+    @include media-breakpoint-up(lg){
+      min-height: 270px;
+    }
+  }
+
+  i{
+    color:$primary;
+  }
+
+  p{
+    font-size: rem-calc(22px);
+  }
+
+  .card-footer p{
+    @extend .font-light;
+    font-size: rem-calc(22px);
+  }
+}

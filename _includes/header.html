@@ -1,24 +1,18 @@
-<!--NAVBAR-->
+
 <header>
-    <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 bg-dark box-shadow">
-        <a href="/" class="mr-md-auto">
-            <img src="{{site.url}}/assets/img/Dragon-Signs-Logo.png" class="img-fluid" alt="dragonsigns logo" height="75" >
+    <div class="d-flex justify-content-center header-bg-colour py-md-2">
+        <a href="/">
+            <img src="{{site.url}}/assets/img/Logo.png" class="img-fluid" alt="dragonsigns logo">
         </a>
-
-        <div class="pt-3 nav-text">
-            <p>029 2022 6501  <a class="pl-2" href="mailto:sales@dragonsigns.com">sales@dragonsigns.com</a></p>
-        </div>
-
-
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark header-bg-colour2">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse d-flex justify-content-center py-md-2" id="navbarNav">
             <ul class="navbar-nav">
                 {% if page.active == "home" %}
                 <li class="active"><a href="#">Home</a></li>
@@ -33,27 +27,27 @@
                 {% endif %}
 
                 {% if page.active == "our-work" %}
-                <li class="active"><a href="#">Our Work</a></li>
+                <li class="active"><a href="#">Rent an RV</a></li>
                 {% else %}
-                <li><a href="../our-work.html">Our Work</a></li>
+                <li><a href="../our-work.html">Rent an RV</a></li>
                 {% endif %}
 
                 {% if page.active == "our-process" %}
-                <li class="active"><a href="#">Our Process</a></li>
+                <li class="active"><a href="#">Services</a></li>
                 {% else %}
-                <li><a href="../our-process.html">Our Process</a></li>
+                <li><a href="../our-process.html">Services</a></li>
                 {% endif %}
 
                 {% if page.active == "case-studies" %}
-                <li class="active"><a href="#">Case Studies</a></li>
+                <li class="active"><a href="#">RV 101</a></li>
                 {% else %}
-                <li><a href="../case-studies.html">Case Studies</a></li>
+                <li><a href="../case-studies.html">RV 101</a></li>
                 {% endif %}
 
                 {% if page.active == "digital" %}
-                <li class="active"><a href="#">Digital</a></li>
+                <li class="active"><a href="#">Explore</a></li>
                 {% else %}
-                <li><a href="../digital.html">Digital</a></li>
+                <li><a href="../digital.html">Explore</a></li>
                 {% endif %}
 
                 {% if page.active == "blog" %}
@@ -63,19 +57,11 @@
                 {% endif %}
 
                 {% if page.active == "contact" %}
-                <li class="active"><a href="#">Contact</a></li>
+                <li class="active"><a href="#">Contact Us</a></li>
                 {% else %}
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../contact.html">Contact Us</a></li>
                 {% endif %}
             </ul>
-        </div>
-
-        <div class="social-buttons">
-            <a href="https://www.facebook.com/dragonsigns" target="_blank" class="fab fa-facebook-f fa-2x"></a>
-            <a href="https://twitter.com/dragon_signs" target="_blank" class="fab fa-twitter fa-2x"></a>
-            <!--<a href="https://plus.google.com/117843347073935131993" target="_blank" class="fab fa-google fa-2x"></a>-->
-            <a href="https://instagram.com/dragonsigns/" target="_blank" class="fab fa-instagram fa-2x"></a>
-            <a href="mailto:sales@dragonsigns.com" class="fa fa-envelope fa-2x" aria-hidden="true"></a>
         </div>
 
     </nav>
