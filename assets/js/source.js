@@ -83,7 +83,7 @@ $(document).ready(function(){
     let rentingRvTl = gsap.timeline();
 
     rentingRvTl.fromTo("#renting-rv", {autoAlpha:0, y:30}, {autoAlpha:1, y:0, duration:1.5})
-    rentingRvTl.fromTo(".rv-number", {autoAlpha:0}, {autoAlpha:1, stagger:1}, "=+0.2")
+    rentingRvTl.fromTo(".rv-number", {autoAlpha:0}, {autoAlpha:1, stagger:0.8}, "=+0.2")
 
 
     let rentingRvScene = new ScrollMagic.Scene({

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2760b723-09cb-40f0-8aaf-41d13e5c7349" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/source.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/source.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.48870873">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4488">
+                <state relative-caret-position="-4474">
                   <caret line="307" column="35" lean-forward="true" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_includes/head.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +64,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/source.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+                <state relative-caret-position="561">
+                  <caret line="85" column="77" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
                 </state>
               </provider>
             </entry>
@@ -81,8 +73,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="37" />
+                <state relative-caret-position="272">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
             </entry>
@@ -150,9 +142,9 @@
         <option value="$PROJECT_DIR$/assets/css/custom/includes/_header.scss" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/source.js" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/assets/js/source.js" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -241,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556214597215</updated>
-      <workItem from="1580118692916" duration="12737000" />
+      <workItem from="1580118692916" duration="13563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52264000" />
+    <option name="totallyTimeSpent" value="53090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -416,10 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../two-robbers/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4488">
-          <caret line="307" column="35" lean-forward="true" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -430,24 +422,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/source.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        <state relative-caret-position="-4474">
+          <caret line="307" column="35" lean-forward="true" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../two-robbers/_config.yml">
+    <entry file="file://$PROJECT_DIR$/assets/js/source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="561">
+          <caret line="85" column="77" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
