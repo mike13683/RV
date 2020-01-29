@@ -44,16 +44,16 @@ $(document).ready(function(){
     })
 
     // hero
-    let tlHeroController = new ScrollMagic.Controller()
+    var tlHeroController = new ScrollMagic.Controller()
 
-    let tlHero = gsap.timeline();
+    var tlHero = gsap.timeline();
 
     tlHero.fromTo(".hero--bg-image", {autoAlpha:0, transformOrigin:"right", scaleX:0},{autoAlpha:1, scaleX:1, duration:1.5})
     tlHero.fromTo(".half-bg-colour", {autoAlpha:0, transformOrigin:"left", scaleX:0}, {autoAlpha:1, scaleX:1}, "=+0.2")
     tlHero.fromTo(".hero__content", {autoAlpha:0, y:-40}, {autoAlpha:1, y:0, duration:2}, "=+0.2")
 
 
-    let tlHeroScene = new ScrollMagic.Scene({
+    var tlHeroScene = new ScrollMagic.Scene({
         triggerElement: "#hero-js",
         triggerHook: 0.8,
         reverse: true
@@ -66,9 +66,9 @@ $(document).ready(function(){
     // down-up-js
     $(".down-up-js").each( function(){
 
-        let downUpJsController = new ScrollMagic.Controller()
+        var downUpJsController = new ScrollMagic.Controller()
 
-        let downUpJsScene = new ScrollMagic.Scene({
+        var downUpJsScene = new ScrollMagic.Scene({
             triggerElement:this,
             triggerHook: 0.8
         })
@@ -78,15 +78,15 @@ $(document).ready(function(){
     })
 
     // renting rv
-    let rentingRvController = new ScrollMagic.Controller()
+    var rentingRvController = new ScrollMagic.Controller()
 
-    let rentingRvTl = gsap.timeline();
+    var rentingRvTl = gsap.timeline();
 
     rentingRvTl.fromTo("#renting-rv", {autoAlpha:0, y:30}, {autoAlpha:1, y:0, duration:1.5})
     rentingRvTl.fromTo(".rv-number", {autoAlpha:0}, {autoAlpha:1, stagger:0.8}, "=+0.2")
 
 
-    let rentingRvScene = new ScrollMagic.Scene({
+    var rentingRvScene = new ScrollMagic.Scene({
         triggerElement: "#renting-rv",
         triggerHook: 0.8
     })
@@ -96,9 +96,9 @@ $(document).ready(function(){
 
 
     // discovery
-    let discoveryController = new ScrollMagic.Controller()
+    var discoveryController = new ScrollMagic.Controller()
 
-    let discoveryScene = new ScrollMagic.Scene({
+    var discoveryScene = new ScrollMagic.Scene({
         triggerElement: "#discovery",
         triggerHook: 0.9
     })
