@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 
     $('.owl-one').owlCarousel({
         stagePadding: 50,
@@ -107,6 +107,6 @@
 
         .addTo(discoveryController)
 
-
+});
 
 
